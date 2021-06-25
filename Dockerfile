@@ -8,6 +8,7 @@ FROM openjdk:11-jre-slim
 EXPOSE 1735
 COPY --from=builder /home/gradle/src/build/distributions/nt-server-docker.tar /app/
 WORKDIR /app
-RUN tar -xvf nt-server-docker.tar
-WORKDIR /app/nt-server-docker
-CMD bin/nt-server-docker
+RUN tar -xvf nt-server-docker.tar && rm nt-server-docker.tar
+WORKDIR /data
+VOLUME /data
+CMD ["/app/nt-server-docker/bin/nt-server-docker"]

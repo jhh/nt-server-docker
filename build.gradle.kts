@@ -6,7 +6,7 @@
 
 plugins {
     // Apply the Kotlin JVM plugin to add support for Kotlin.
-    id("org.jetbrains.kotlin.jvm") version "1.3.72"
+    id("org.jetbrains.kotlin.jvm") version "1.5.20"
 
     // Apply the application plugin to add support for building a CLI application.
     application
@@ -20,7 +20,7 @@ repositories {
 }
 
 dependencies {
-    val wpiVersion = "2020.3.2"
+    val wpiVersion = "2021.3.1"
     implementation("edu.wpi.first.ntcore:ntcore-java:$wpiVersion")
     implementation("edu.wpi.first.ntcore:ntcore-jni:$wpiVersion:osxx86-64")
     implementation("edu.wpi.first.ntcore:ntcore-jni:$wpiVersion:linuxx86-64")
