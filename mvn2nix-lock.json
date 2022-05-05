@@ -25,11 +25,6 @@
       "sha256": "b4fe0bed469e2e973c661b4b7647db374afee7bda513560e96cd780132308f0b",
       "url": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.pom"
     },
-    "edu.wpi.first.ntcore:ntcore-jni:jar:osxx86-64:2021.3.1": {
-      "layout": "edu/wpi/first/ntcore/ntcore-jni/2021.3.1/ntcore-jni-2021.3.1-osxx86-64.jar",
-      "sha256": "65891375ab7f75cd723bf16ba911bd2e12956504ef90090f20e31025e692818e",
-      "url": "https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/ntcore/ntcore-jni/2021.3.1/ntcore-jni-2021.3.1-osxx86-64.jar"
-    },
     "org.codehaus.plexus:plexus-classworlds:pom:2.5.1": {
       "layout": "org/codehaus/plexus/plexus-classworlds/2.5.1/plexus-classworlds-2.5.1.pom",
       "sha256": "bc1f058e3aa1596fd67a203b3359ea42cd88b8d7cd2e1008ebf46cec1f61a769",
@@ -204,11 +199,6 @@
       "layout": "org/apache/maven/maven-aether-provider/3.1.0/maven-aether-provider-3.1.0.jar",
       "sha256": "ec5edc09f3cc4d4e23c7f8a1105b520d63498f5a18bd00b8d3833aa38d3f136e",
       "url": "https://repo1.maven.org/maven2/org/apache/maven/maven-aether-provider/3.1.0/maven-aether-provider-3.1.0.jar"
-    },
-    "edu.wpi.first.ntcore:ntcore-jni:pom:2021.3.1": {
-      "layout": "edu/wpi/first/ntcore/ntcore-jni/2021.3.1/ntcore-jni-2021.3.1.pom",
-      "sha256": "4b7eeb366d92d19c3fd44bf33773796ca16d201b2c8d103129554fd08ce55b68",
-      "url": "https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/ntcore/ntcore-jni/2021.3.1/ntcore-jni-2021.3.1.pom"
     },
     "org.sonatype.sisu:sisu-inject-bean:pom:2.3.0": {
       "layout": "org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.pom",
@@ -820,6 +810,11 @@
       "sha256": "8de51faf9303a49a479e8fd01608166a035f16d259086c84f62afdae2c18617b",
       "url": "https://repo1.maven.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.1/maven-plugin-annotations-3.1.jar"
     },
+    "edu.wpi.first.ntcore:ntcore-jni:pom:2022.4.1": {
+      "layout": "edu/wpi/first/ntcore/ntcore-jni/2022.4.1/ntcore-jni-2022.4.1.pom",
+      "sha256": "c29bae07a6430cbcce64da4eb245aafd292fd4e7bae81d83cee173f2e5c5af92",
+      "url": "https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/ntcore/ntcore-jni/2022.4.1/ntcore-jni-2022.4.1.pom"
+    },
     "org.apache.maven.surefire:maven-surefire-common:jar:2.12.4": {
       "layout": "org/apache/maven/surefire/maven-surefire-common/2.12.4/maven-surefire-common-2.12.4.jar",
       "sha256": "5fa774434507bea2edcf4496536c88f883926cc6baf121b5af172fa494aaa30d",
@@ -860,6 +855,11 @@
       "sha256": "4e3e0ad158ec60917e0de544c550f31cd65d5a97c3af1c1968bf427e4a9df2e4",
       "url": "https://repo1.maven.org/maven2/classworlds/classworlds/1.1/classworlds-1.1.jar"
     },
+    "edu.wpi.first.ntcore:ntcore-java:pom:2022.4.1": {
+      "layout": "edu/wpi/first/ntcore/ntcore-java/2022.4.1/ntcore-java-2022.4.1.pom",
+      "sha256": "620c4f17542eb78485fafbc4bca5f87c48303655f63e080d9a85e40dc20d7358",
+      "url": "https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/ntcore/ntcore-java/2022.4.1/ntcore-java-2022.4.1.pom"
+    },
     "org.codehaus.plexus:plexus-utils:pom:2.1": {
       "layout": "org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.pom",
       "sha256": "9f4ac6987113d09099bf43b846d2ec1d5e7a8091a6185f1f16d68e845f681243",
@@ -879,11 +879,6 @@
       "layout": "commons-io/commons-io/2.6/commons-io-2.6.pom",
       "sha256": "0c23863893a2291f5a7afdbd8d15923b3948afd87e563fa341cdcf6eae338a60",
       "url": "https://repo1.maven.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.pom"
-    },
-    "edu.wpi.first.wpiutil:wpiutil-java:pom:2021.3.1": {
-      "layout": "edu/wpi/first/wpiutil/wpiutil-java/2021.3.1/wpiutil-java-2021.3.1.pom",
-      "sha256": "1dac9063a3585f14e3e9059e73548aa2fe07aab8b058188acd8da074f28e2736",
-      "url": "https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/wpiutil/wpiutil-java/2021.3.1/wpiutil-java-2021.3.1.pom"
     },
     "org.apache.maven:maven-repository-metadata:jar:3.0.5": {
       "layout": "org/apache/maven/maven-repository-metadata/3.0.5/maven-repository-metadata-3.0.5.jar",
@@ -1495,11 +1490,6 @@
       "sha256": "bf9083fb846993689409b2bdbc735048e53bac6cc32707cde7ef84817b6e9365",
       "url": "https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-inject-plexus/2.3.0/sisu-inject-plexus-2.3.0.jar"
     },
-    "edu.wpi.first.ntcore:ntcore-java:jar:2021.3.1": {
-      "layout": "edu/wpi/first/ntcore/ntcore-java/2021.3.1/ntcore-java-2021.3.1.jar",
-      "sha256": "a18049c63220b1803f345498d447bcd23830aac1b23f533eaf082f74d626a7df",
-      "url": "https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/ntcore/ntcore-java/2021.3.1/ntcore-java-2021.3.1.jar"
-    },
     "org.codehaus.plexus:plexus-compiler:pom:2.2": {
       "layout": "org/codehaus/plexus/plexus-compiler/2.2/plexus-compiler-2.2.pom",
       "sha256": "1d94e9a3f048c9eaaba0016ea188a4e7029c6849b8708ff6dc900a34fe03c28c",
@@ -1564,11 +1554,6 @@
       "layout": "org/sonatype/sisu/inject/guava-parent/0.9.9/guava-parent-0.9.9.pom",
       "sha256": "cfc3507491767609fb2da36dcf32ebb0055b8bd32a2af182c021df9ecce26a76",
       "url": "https://repo1.maven.org/maven2/org/sonatype/sisu/inject/guava-parent/0.9.9/guava-parent-0.9.9.pom"
-    },
-    "edu.wpi.first.ntcore:ntcore-java:pom:2021.3.1": {
-      "layout": "edu/wpi/first/ntcore/ntcore-java/2021.3.1/ntcore-java-2021.3.1.pom",
-      "sha256": "80f772afba49ed7040a3eb5f81fd3c86afaa965eb01134a3e6fa51931ddc3ceb",
-      "url": "https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/ntcore/ntcore-java/2021.3.1/ntcore-java-2021.3.1.pom"
     },
     "org.eclipse.sisu:org.eclipse.sisu.plexus:pom:0.0.0.M2a": {
       "layout": "org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.pom",
@@ -1850,6 +1835,11 @@
       "sha256": "228367b7569fb1462a3eb1423bc2778e2fc7fbaee3d3767890c02b8924fa1889",
       "url": "https://repo1.maven.org/maven2/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.pom"
     },
+    "edu.wpi.first.wpiutil:wpiutil-java:jar:2022.4.1": {
+      "layout": "edu/wpi/first/wpiutil/wpiutil-java/2022.4.1/wpiutil-java-2022.4.1.jar",
+      "sha256": "2387ec35107790b045afd2f5db2bcab69aa36875a040c64f93a0cf5fa3c04cbb",
+      "url": "https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/wpiutil/wpiutil-java/2022.4.1/wpiutil-java-2022.4.1.jar"
+    },
     "org.codehaus.plexus:plexus-utils:pom:3.4.1": {
       "layout": "org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.pom",
       "sha256": "b144cff9b1c6259fec4fee5bdfc0f360d69c23abd4ea6e544533a949b69e3582",
@@ -1925,11 +1915,6 @@
       "sha256": "719fe091fd3fe4c6a7b8f69c8714935138b85a2b6145068a1ccfdb57d2e500d1",
       "url": "https://repo1.maven.org/maven2/org/sonatype/aether/aether/1.13.1/aether-1.13.1.pom"
     },
-    "edu.wpi.first.ntcore:ntcore-jni:jar:linuxx86-64:2021.3.1": {
-      "layout": "edu/wpi/first/ntcore/ntcore-jni/2021.3.1/ntcore-jni-2021.3.1-linuxx86-64.jar",
-      "sha256": "202bd9369c5ccd5f2245fde2114fe89ede9179cb00e1995ae12ed93e090e1f74",
-      "url": "https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/ntcore/ntcore-jni/2021.3.1/ntcore-jni-2021.3.1-linuxx86-64.jar"
-    },
     "org.apache.maven:maven-core:jar:2.0.9": {
       "layout": "org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.jar",
       "sha256": "da9bdd720f0b1861fe649a2edf8fc0a65e4e2c4a1a05d8d96adbfaa1319f7285",
@@ -1964,6 +1949,11 @@
       "layout": "org/apache/maven/maven-repository-metadata/3.1.1/maven-repository-metadata-3.1.1.pom",
       "sha256": "0c6a6ba1251b80b13065d521aab5db1a587de08292b241c27c0908b5b5a4e1bd",
       "url": "https://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/3.1.1/maven-repository-metadata-3.1.1.pom"
+    },
+    "edu.wpi.first.wpiutil:wpiutil-java:pom:2022.4.1": {
+      "layout": "edu/wpi/first/wpiutil/wpiutil-java/2022.4.1/wpiutil-java-2022.4.1.pom",
+      "sha256": "f4d4cd170e8096f3f8a35af92d14067d5a4f0ad3e7c79cc588085145785b9c79",
+      "url": "https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/wpiutil/wpiutil-java/2022.4.1/wpiutil-java-2022.4.1.pom"
     },
     "org.apache.maven.shared:maven-common-artifact-filters:jar:1.3": {
       "layout": "org/apache/maven/shared/maven-common-artifact-filters/1.3/maven-common-artifact-filters-1.3.jar",
@@ -2145,6 +2135,11 @@
       "sha256": "72b31dc11351a5bf4f5841221be5b1afc2b802ff96f23f2b77838f6d46cd3ad5",
       "url": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/2.0.5/plexus-2.0.5.pom"
     },
+    "edu.wpi.first.ntcore:ntcore-java:jar:2022.4.1": {
+      "layout": "edu/wpi/first/ntcore/ntcore-java/2022.4.1/ntcore-java-2022.4.1.jar",
+      "sha256": "532d56396c68101dd3480b41364452333856cc695ebd907b0ba5c14b5053fada",
+      "url": "https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/ntcore/ntcore-java/2022.4.1/ntcore-java-2022.4.1.jar"
+    },
     "org.apache.maven:maven-artifact:pom:3.1.1": {
       "layout": "org/apache/maven/maven-artifact/3.1.1/maven-artifact-3.1.1.pom",
       "sha256": "fc2f1304677f0eb6ba58cd305357f62c013488b364bff9a8ba13b97553bcd980",
@@ -2169,11 +2164,6 @@
       "layout": "org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.pom",
       "sha256": "4f08433f11d9b646bf960b259d8f533f3dc93bfd3b17c4fadbd4068234277695",
       "url": "https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.pom"
-    },
-    "edu.wpi.first.wpiutil:wpiutil-java:jar:2021.3.1": {
-      "layout": "edu/wpi/first/wpiutil/wpiutil-java/2021.3.1/wpiutil-java-2021.3.1.jar",
-      "sha256": "d35f31eafe9aafb508ab39c5d273ff6a33d594fd0a7409c8aa9ffcf21ec6fbb2",
-      "url": "https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/wpiutil/wpiutil-java/2021.3.1/wpiutil-java-2021.3.1.jar"
     },
     "org.apache.maven:maven-core:jar:3.0.5": {
       "layout": "org/apache/maven/maven-core/3.0.5/maven-core-3.0.5.jar",
@@ -2220,10 +2210,20 @@
       "sha256": "faaef64ec5713a8dab6d47fd39356f2c9bcfe15f88ac4392e525c4f259b00f29",
       "url": "https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.2.2/maven-jar-plugin-3.2.2.jar"
     },
+    "edu.wpi.first.ntcore:ntcore-jni:jar:osxx86-64:2022.4.1": {
+      "layout": "edu/wpi/first/ntcore/ntcore-jni/2022.4.1/ntcore-jni-2022.4.1-osxx86-64.jar",
+      "sha256": "bd10675276a6fdf332dd8a7358faf96b02f9138ebba13473623368bd7491068c",
+      "url": "https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/ntcore/ntcore-jni/2022.4.1/ntcore-jni-2022.4.1-osxx86-64.jar"
+    },
     "org.apache.maven:maven-model:pom:2.0.6": {
       "layout": "org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.pom",
       "sha256": "e88566fd64906e8e9a2315e5cb67efb7e0f4947a1c45a45cff399f64a235ac1f",
       "url": "https://repo1.maven.org/maven2/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.pom"
+    },
+    "edu.wpi.first.ntcore:ntcore-jni:jar:linuxx86-64:2022.4.1": {
+      "layout": "edu/wpi/first/ntcore/ntcore-jni/2022.4.1/ntcore-jni-2022.4.1-linuxx86-64.jar",
+      "sha256": "0ba1360cb6ca6feba9f91dce74fee3f057fcaf0d8501bab810c5eb261555672e",
+      "url": "https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/ntcore/ntcore-jni/2022.4.1/ntcore-jni-2022.4.1-linuxx86-64.jar"
     },
     "org.apache.maven:maven-model:pom:2.0.9": {
       "layout": "org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.pom",

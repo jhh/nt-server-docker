@@ -16,7 +16,7 @@
     <kotlin.code.style>official</kotlin.code.style>
     <kotlin.compiler.jvmTarget>11</kotlin.compiler.jvmTarget>
     <kotlin.version>1.6.21</kotlin.version>
-    <wpilib.version>2021.3.1</wpilib.version>
+    <wpilib.version>2022.4.1</wpilib.version>
   </properties>
 
   <repositories>
