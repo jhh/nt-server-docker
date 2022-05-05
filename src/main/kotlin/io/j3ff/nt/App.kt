@@ -5,7 +5,7 @@ import edu.wpi.first.networktables.NetworkTableInstance
 
 fun main() {
     val networkIdentity = System.getenv("NT_IDENTITY") ?: "NetworkTables Server"
-    val persistFile = System.getenv("STATE_DIRECTORY") ?: "/tmp/networktables.ini"
+    val persistFile = "${ System.getenv("STATE_DIRECTORY") ?: "/tmp" }/networktables.ini"
     val port = System.getenv("NT_PORT")?.toIntOrNull() ?: 1735
 
     NetworkTableInstance.getDefault().apply {
