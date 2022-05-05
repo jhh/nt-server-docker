@@ -4,13 +4,17 @@ import edu.wpi.first.networktables.NetworkTableInstance
 
 
 fun main() {
-    println("pwd = ${System.getProperty("user.dir")}")
+    val networkIdentity = System.getenv("NT_IDENTITY") ?: "NetworkTables Server"
+    val persistFile = System.getenv("STATE_DIRECTORY") ?: "/tmp/networktables.ini"
+    val port = System.getenv("NT_PORT")?.toIntOrNull() ?: 1735
 
-    val nt = NetworkTableInstance.getDefault().apply {
-        setNetworkIdentity("Docker")
+    NetworkTableInstance.getDefault().apply {
         addLogger({ println(it.message) }, 11, 100)
         startServer()
     }
+
+    println("$networkIdentity listening on port $port")
+    println("$networkIdentity saving state to $persistFile")
 
     do {
         Thread.sleep(2500L)
