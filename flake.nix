@@ -89,6 +89,8 @@
                 {
                   Restart = "on-failure";
                   ExecStart = "${pkgs.jdk11_headless}/bin/java -jar ${pkg}/${pkg.name}.jar";
+                  StateDirectory = "network-tables";
+                  StateDirectoryMode = "0755";
                 };
             };
           };
