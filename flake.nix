@@ -36,12 +36,12 @@
 
               installPhase = ''
                 mkdir -p $out/bin
-
                 ln -s ${mavenRepository} $out/lib
-
                 cp target/${name}.jar $out/
 
+                # WPI util class loader caches JNI native libs in home directory
                 makeWrapper ${pkgs.jdk11_headless}/bin/java $out/bin/${pname} \
+                      --add-flags "-Duser.home=\"\$CACHE_DIRECTORY\"" \
                       --add-flags "-jar $out/${name}.jar"
               '';
             };
@@ -88,10 +88,28 @@
                 in
                 {
                   Restart = "on-failure";
-                  ExecStart = "${pkgs.jdk11_headless}/bin/java -jar ${pkg}/${pkg.name}.jar";
-                  StateDirectory = "network-tables";
-                  StateDirectoryMode = "0755";
+                  ExecStart = "${pkg}/bin/nt-server";
                   SuccessExitStatus = 143;
+                  StateDirectory = pkg.pname;
+                  CacheDirectory = pkg.pname;
+
+                  DynamicUser = true;
+
+                  NoNewPrivileges = true;
+                  PrivateTmp = true;
+                  PrivateDevices = true;
+                  DevicePolicy = "closed";
+                  ProtectSystem = "strict";
+                  ProtectHome = true;
+                  ProtectControlGroups = true;
+                  ProtectKernelModules = true;
+                  ProtectKernelTunables = true;
+                  ProtectProc = "invisible";
+                  RestrictAddressFamilies = [ "AF_INET" "AF_INET6" ];
+                  RestrictNamespaces = true;
+                  RestrictRealtime = true;
+                  RestrictSUIDSGID = true;
+                  LockPersonality = true;
                 };
             };
           };
