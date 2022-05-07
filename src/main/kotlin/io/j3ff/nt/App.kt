@@ -8,12 +8,10 @@ fun main() {
     val persistFile = "${System.getenv("STATE_DIRECTORY") ?: "/tmp"}/networktables.ini"
     val port = System.getenv("NT_PORT")?.toIntOrNull() ?: 1735
 
-    val nt = NetworkTableInstance.getDefault().apply {
+    NetworkTableInstance.getDefault().apply {
         addLogger({ println(it.message) }, 11, 100)
-        startServer()
+        startServer(persistFile)
     }
-
-    Runtime.getRuntime().addShutdownHook(Thread { nt.stopServer() })
 
     println("$networkIdentity listening on port $port")
     println("$networkIdentity saving state to $persistFile")
